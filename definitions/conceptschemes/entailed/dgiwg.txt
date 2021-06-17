@@ -1,0 +1,129 @@
+Validation Report
+Conforms: False
+Results (21):
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:prefLabel ; sh:uniqueLang Literal("true" = True, datatype=xsd:boolean) ]
+	Focus Node: <http://www.opengis.net/def/classification-scheme/dgiwg/2007-1/feature-concepts>
+	Result Path: skos:prefLabel
+	Message: Less than 1 values on <http://www.opengis.net/def/classification-scheme/dgiwg/2007-1/feature-concepts>->skos:prefLabel
+Validation Result in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Info
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.3.4>
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>
+	Value Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>
+	Message: 2.3.4 Each skos:Concept in a vocabulary _MAY_ indicate its source, if different or more finely specified than its vocabularies source, by use of either the `prov:wasDerivedFrom`, `dcterms:source`, `dcterms:provenance` properties
+Validation Result in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Info
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.3.4>
+	Focus Node: <http://www.opengis.net/def/dgiwg/>
+	Value Node: <http://www.opengis.net/def/dgiwg/>
+	Message: 2.3.4 Each skos:Concept in a vocabulary _MAY_ indicate its source, if different or more finely specified than its vocabularies source, by use of either the `prov:wasDerivedFrom`, `dcterms:source`, `dcterms:provenance` properties
+Validation Result in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Info
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.3.4>
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/>
+	Value Node: <http://www.opengis.net/def/classificationScheme/DGIWG/>
+	Message: 2.3.4 Each skos:Concept in a vocabulary _MAY_ indicate its source, if different or more finely specified than its vocabularies source, by use of either the `prov:wasDerivedFrom`, `dcterms:source`, `dcterms:provenance` properties
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:definition ]
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>
+	Result Path: skos:definition
+	Message: Less than 1 values on <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>->skos:definition
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:definition ]
+	Focus Node: <http://www.opengis.net/def/dgiwg/>
+	Result Path: skos:definition
+	Message: Less than 1 values on <http://www.opengis.net/def/dgiwg/>->skos:definition
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:definition ]
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/>
+	Result Path: skos:definition
+	Message: Less than 1 values on <http://www.opengis.net/def/classificationScheme/DGIWG/>->skos:definition
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.1.7>
+	Focus Node: <http://www.opengis.net/def/dgiwg>
+	Value Node: <http://www.opengis.net/def/dgiwg>
+	Message: 2.1.7 Each vocabulary _MUST_ indicate its source, or that it has no source, by use of either the prov:wasDerivedFrom, dcterms:source, dcterms:provenance properties
+Validation Result in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.2.2>
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>
+	Value Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>
+	Message: 2.2.2 Each skos:Collection in a vocabulary _SHOULD_ indicate its source by use of either the prov:wasDerivedFrom, dcterms:source, dcterms:provenance properties if the collection is derived from a source
+Validation Result in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.2.2>
+	Focus Node: <http://www.opengis.net/def/dgiwg/>
+	Value Node: <http://www.opengis.net/def/dgiwg/>
+	Message: 2.2.2 Each skos:Collection in a vocabulary _SHOULD_ indicate its source by use of either the prov:wasDerivedFrom, dcterms:source, dcterms:provenance properties if the collection is derived from a source
+Validation Result in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.2.2>
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/>
+	Value Node: <http://www.opengis.net/def/classificationScheme/DGIWG/>
+	Message: 2.2.2 Each skos:Collection in a vocabulary _SHOULD_ indicate its source by use of either the prov:wasDerivedFrom, dcterms:source, dcterms:provenance properties if the collection is derived from a source
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:definition ]
+	Focus Node: <http://www.opengis.net/def/classification-scheme/dgiwg/2007-1/feature-concepts>
+	Result Path: skos:definition
+	Message: Less than 1 values on <http://www.opengis.net/def/classification-scheme/dgiwg/2007-1/feature-concepts>->skos:definition
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:IRI ; sh:path skos:hasTopConcept ]
+	Focus Node: <http://www.opengis.net/def/dgiwg>
+	Result Path: skos:hasTopConcept
+	Message: Less than 1 values on <http://www.opengis.net/def/dgiwg>->skos:hasTopConcept
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:prefLabel ; sh:uniqueLang Literal("true" = True, datatype=xsd:boolean) ]
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>
+	Result Path: skos:prefLabel
+	Message: Less than 1 values on <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/>->skos:prefLabel
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:prefLabel ; sh:uniqueLang Literal("true" = True, datatype=xsd:boolean) ]
+	Focus Node: <http://www.opengis.net/def/dgiwg/>
+	Result Path: skos:prefLabel
+	Message: Less than 1 values on <http://www.opengis.net/def/dgiwg/>->skos:prefLabel
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:prefLabel ; sh:uniqueLang Literal("true" = True, datatype=xsd:boolean) ]
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/>
+	Result Path: skos:prefLabel
+	Message: Less than 1 values on <http://www.opengis.net/def/classificationScheme/DGIWG/>->skos:prefLabel
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("2.1.5 Each vocabulary _MUST_ have one and only one created date indicated using the dcterms:created property that must be either an `xsd:date`, `xsd:dateTime` or `xsd:dateTimeStamp` literal value") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:dateTime ] [ sh:datatype xsd:date ] [ sh:datatype xsd:dateTimeStamp ] ) ; sh:path dcterms:created ]
+	Focus Node: <http://www.opengis.net/def/dgiwg>
+	Result Path: dcterms:created
+	Message: 2.1.5 Each vocabulary _MUST_ have one and only one created date indicated using the dcterms:created property that must be either an `xsd:date`, `xsd:dateTime` or `xsd:dateTimeStamp` literal value
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("2.1.5 Each vocabulary _MUST_ have one and only one modified date indicated using the dcterms:modified property that must be either an `xsd:date`, `xsd:dateTime or `xsd:dateTimeStamp` literal value") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:dateTime ] [ sh:datatype xsd:date ] [ sh:datatype xsd:dateTimeStamp ] ) ; sh:path dcterms:modified ]
+	Focus Node: <http://www.opengis.net/def/dgiwg>
+	Result Path: dcterms:modified
+	Message: 2.1.5 Each vocabulary _MUST_ have one and only one modified date indicated using the dcterms:modified property that must be either an `xsd:date`, `xsd:dateTime or `xsd:dateTimeStamp` literal value
+Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.3.3>
+	Focus Node: <http://www.opengis.net/def/classification-scheme/dgiwg/2007-1/feature-concepts>
+	Value Node: <http://www.opengis.net/def/classification-scheme/dgiwg/2007-1/feature-concepts>
+	Message: Requirement 2.3.3 Each skos:Concept in a vocabulary _MUST_ indicate that it appears within that vocabulary's hierarchy of terms by use of either or both `skos:inScheme` and `skos:topConceptOf` properties
+Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: <https://w3id.org/profile/vocpub/shapes/Requirement-2.3.3>
+	Focus Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/FeatureConcepts>
+	Value Node: <http://www.opengis.net/def/classificationScheme/DGIWG/2007-1/FeatureConcepts>
+	Message: Requirement 2.3.3 Each skos:Concept in a vocabulary _MUST_ indicate that it appears within that vocabulary's hierarchy of terms by use of either or both `skos:inScheme` and `skos:topConceptOf` properties
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) ; sh:path skos:definition ]
+	Focus Node: <http://www.opengis.net/def/dgiwg>
+	Result Path: skos:definition
+	Message: Less than 1 values on <http://www.opengis.net/def/dgiwg>->skos:definition
